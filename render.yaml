@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: web-hosting-sederhana
+    env: node
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: "node server.js"
