@@ -19,11 +19,11 @@
 - Grid card dengan deskripsi proyek
 - Diakses via: `http://localhost:3000/portfolio.html`
 
-### 4. **server.js** (Node.js Server)
+### 4. **server_simple.js** (Server Express Sederhana)
 - Port: 3000 (atau PORT env variable)
-- Routing otomatis untuk `/` ke Web.html
-- Support MIME types untuk HTML, CSS, JS, gambar
-- Error handling 404
+- Menyajikan file statis dari folder proyek
+- Root (`/`) mengirimkan `Web.html`
+- Error handling 404 sederhana
 
 ### 5. **package.json** (Konfigurasi Node)
 - Start command: `npm start`
@@ -55,7 +55,7 @@ Kemudian buka browser di `http://localhost:3000`
 
 1. ✓ **Web.html**: Portfolio button sekarang navigasi langsung (bukan window.open)
 2. ✓ **portfolio.html**: Link "Kembali ke Home" mengarah ke root (/)
-3. ✓ **server.js**: Support routing untuk index.html dan Web.html
+3. ✓ **server_simple.js**: Menyajikan `Web.html` sebagai root dan file statis lainnya
 4. ✓ **index.html**: Entry point baru yang terpusat
 
 Tidak ada benturan file lagi!

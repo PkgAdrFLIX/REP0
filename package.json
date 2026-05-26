@@ -2,10 +2,13 @@
   "name": "web-hosting-sederhana",
   "version": "1.0.0",
   "description": "Website lengkap dengan server hosting Node.js sederhana",
-  "main": "server.js",
+  "main": "server_simple.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server_simple.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
