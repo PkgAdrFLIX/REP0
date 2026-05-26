@@ -7,6 +7,5 @@
     "start": "node server_simple.js"
   },
   "author": "",
-  "license": "MIT",
-  
+  "license": "MIT"
 }
